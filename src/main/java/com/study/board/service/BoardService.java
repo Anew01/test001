@@ -15,9 +15,7 @@ public class BoardService {
 
     @Autowired
     private BoardRepository boardRepository;
-    //뭐가 문제야..
 
-    //글작성 매소드111
     public void write(Board board, MultipartFile file) throws Exception{
 
         String projectPath = System.getProperty("user.dir") + "\\src\\main\\resources\\static\\files";
